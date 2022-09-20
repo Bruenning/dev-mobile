@@ -31,12 +31,12 @@ class _HomePageState extends State<HomePage> {
 			  dadosSalvos.add("\n---------------------------------\n\nNovo Jogo");
 			}
 			if(_isTruco && !_fim && _nos < 11){
-				late int _valor = (_nos +( 3 * _multitruco));
+				late int valor = (_nos +( 3 * _multitruco));
 
-				if(_valor > 12){
+				if(valor > 12){
 					_nos = 12;
 				}else{
-					_nos = _valor;
+					_nos = valor;
 				}
 				dadosSalvos.add("\nNós: $_nos Eles: $_eles");
 
