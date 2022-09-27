@@ -6,8 +6,8 @@ import 'package:flutter_bootstrap/flutter_bootstrap.dart';
 //home do placar do truco
 
 	const List<String> truco = <String>['Truco', 'Seis', 'Nove', 'Doze', 'Maximo'];
-  	String dropdownValue = truco.first;
-  	List<String> dadosSalvos = <String>[];
+  String dropdownValue = truco.first;
+  List<String> dadosSalvos = <String>[];
 	int _nos = 0;
 	int _eles = 0;
 	int _multitruco = 0;
