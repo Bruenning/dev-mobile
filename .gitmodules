@@ -1,0 +1,3 @@
+[submodule "trabalhoFlutter"]
+	path = trabalhoFlutter
+	url = https://github.com/Bruenning/ProjetoFlutter.git
